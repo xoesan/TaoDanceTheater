@@ -273,6 +273,9 @@ a {
   .col{
     min-width: 80px;
   }
+  video{
+    bottom: 0;
+  }
 }
 @media (max-width: 480px) {
   .navi-lvl2 {
