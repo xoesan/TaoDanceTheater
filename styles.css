@@ -231,7 +231,7 @@ a {
   text-decoration: none;
 }
 #navi-tao, #navi-2018, #navi-tech, #navi-cross, #navi-comm, #navi-friend ,#show-concept{
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 @media (max-width: 802px) {
   .navi-1lvl a{
