@@ -257,7 +257,8 @@ a {
     position: fixed;
   }
   .navi-lvl2 {
-    margin-left: 50%;
+    margin-right: 50%;
+
   }
   .navi-lvl-2-1 {
     position: fixed;
@@ -265,6 +266,8 @@ a {
     top: 15px;
     word-break:keep-all;
     white-space:nowrap;
+    z-index: 100;
+    left: 55%;
   }
   #navi-toworks{
     display: block;
