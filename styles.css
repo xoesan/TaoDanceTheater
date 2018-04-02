@@ -230,8 +230,11 @@ video {
 a {
   text-decoration: none;
 }
-#navi-tao, #navi-2018, #navi-tech, #navi-cross, #navi-comm, #navi-friend ,#show-concept{
+#navi-tao, #navi-2018, #navi-tech, #navi-cross, #navi-comm, #navi-friend ,#show-concept,#close-works-sign{
   visibility: hidden;
+}
+#navi-toworks{
+  display: none;
 }
 @media (max-width: 802px) {
   .navi-1lvl a{
@@ -253,6 +256,22 @@ a {
     position: fixed;
     bottom: auto;
     top: 15px;
+  }
+  #navi-toworks{
+    display: block;
+  }
+  .navi-works{
+    bottom: 0px;
+    z-index: 100;
+  }
+  .navi-work a{
+    display: inline;
+  }
+  .col-2,.col-3,.col{
+    max-width: none;
+  }
+  .col{
+    min-width: 80px;
   }
 }
 @media (max-width: 480px) {

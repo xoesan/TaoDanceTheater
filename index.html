@@ -50,9 +50,10 @@
         <a style="float: right; padding-right: 30px">-- Tao Ye</a>
         </div>
       </div>
-
+      <img id="close-works-sign" style="position:fixed;top:16px;right:16px;width:45px;height:45px;" src="close-sign.png" >
       <div class="navi" id="">
         <div class=".container-fluid">
+
           <div id="navi-tao" class="navi-lvl-2-1 row" onMouseOver="show('navi-tao')" onMouseOut="hide('navi-tao')">
             <a class="navi-lvl2" href="">about us</a>
             <a class="navi-lvl2" href="">Tao Ye|Duan Ni</a>
@@ -85,17 +86,18 @@
             <a class="navi-lvl2" href="">Li Min</a>
             <a class="navi-lvl2" href="">Zhang Shengbin</a>
           </div>
-          
+
           <div id="navi-whole" class="navi-1lvl row">
             <a class="navi-lvl1" href="" onMouseOver="show('navi-tao')" onMouseOut="hide('navi-tao')">TAO</a>
             <a class="navi-lvl1" href="" onMouseOver="show('navi-2018')" onMouseOut="hide('navi-2018')">2018</a>
+            <a id="navi-toworks" class="navi-lvl1" href="" onMouseOver="show('navi-works'),show('close-works-sign')" onMouseOut="hide('navi-works'),hide('close-works-sign')">works</a>
             <a class="navi-lvl1" href="" onMouseOver="show('navi-tech')" onMouseOut="hide('navi-tech')">techniques</a>
-            <a class="navi-lvl1" href="" onMouseOver="show('navi-cross')" onMouseOut="hide('navi-cross')">cross-discipline</a>
+            <a class="navi-lvl1" href="" onMouseOver="show('navi-cross')" onMouseOut="hide('navi-cross')" style="min-width:181px">cross-discipline</a>
             <a class="navi-lvl1" href="" onMouseOver="show('navi-comm')" onMouseOut="hide('navi-comm')">commentaries/reports</a>
             <a class="navi-lvl1" href="" onMouseOver="show('navi-friend')" onMouseOut="hide('navi-friend')">friends</a>
             <a class="navi-lvl1" href="" onMouseOver="show('')" onMouseOut="hide('')">contact</a>
           </div>
-          <div class="navi-works row">
+          <div id="navi-works" class="navi-works row">
               <a class="navi-work col-2" id="navi-work-1" href="" onMouseOver="show('show-concept'),hide('video-youtube')" onMouseOut="hide('show-concept'),show('video-youtube')">concept</a>
               <a class="navi-work col" id="navi-work-2" href="">2</a>
               <a class="navi-work col-3" id="navi-work-3" href="">Weight X 3</a>
