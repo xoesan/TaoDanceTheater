@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300');
+html,body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  /* background-color: #EDEDED; */
+  /* z-index: -999; */
+}
+a{
+  /* font-family: 'Inconsolata', monospace; */
+  font-family: 'Source Code Pro', monospace;
+  /* font-weight: 400; */
+  font-weight: 300;
+  /* letter-spacing: 0.5px; */
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+}
+.navi {
+  position: fixed;
+  bottom: 90px;
+  width: 100%;
+  /* background-color: black; */
+}
+.navi-1lvl{
+  position: relative;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  bottom: -1px;
+}
+.navi-lvl-2-1{
+  position: fixed;
+  bottom: 60px;
+  left: 15px;
+  width: 100%;
+  /* visibility: hidden; */
+}
+.navi-lvl1-contact{
+  position: fixed;
+  bottom: 89px;
+  right: 0px;
+}
+.navi-lvl1 {
+  padding: 1.5px 8px 2px 8px;
+  border: 0.5px;
+  border-color: white;
+  border-style: solid;
+  background-color: black;
+}
+.navi-lvl2 {
+  padding: 1.5px 8px 2px 8px;
+  border: 0.5px;
+  border-color: white;
+  border-style: solid;
+  background-color: black;
+}
+.navi-works {
+  position: fixed;
+  left: 15px;
+  right: 15px;
+  z-index: -10;
+  background-color: black;
+  /* bottom: 1px; */
+}
+.navi-work {
+  padding: 32px 25px 32px 25px;
+  text-align: center;
+  border: 0.5px;
+  border-color: white;
+  /* border-style: solid; */
+}
+#navi-work-1 {
+  background-image: url("n1.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navi-work-1:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  transition: 0.3s;
+}
+#navi-work-2 {
+  background-image: url("n2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navi-work-2:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  transition: 0.3s;
+}
+#navi-work-3 {
+  background-image: url("n3.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navi-work-3:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  transition: 0.3s;
+}
+#navi-work-4 {
+  background-image: url("n4.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navi-work-4:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  transition: 0.3s;
+}
+#navi-work-5 {
+  background-image: url("n5.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navi-work-5:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  transition: 0.3s;
+}
+#navi-work-6 {
+  background-image: url("n6.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navi-work-6:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  transition: 0.3s;
+}
+#navi-work-7 {
+  background-image: url("n7.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navi-work-7:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  transition: 0.3s;
+}
+#navi-work-8 {
+  background-image: url("n8.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navi-work-8:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  transition: 0.3s;
+}
+#navi-work-9 {
+  background-image: url("n9.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#navi-work-9:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  transition: 0.3s;
+}
+.navi-lvl1:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  border-color: #CECECE;
+  transition: 0.3s;
+}
+.navi-lvl2:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  border-color: #CECECE;
+  transition: 0.3s;
+}
+.navi-lvl1-contact a:hover {
+  background-color: #EDEDED;
+  background-image: none;
+  color: black;
+  border-color: #CECECE;
+  transition: 0.3s;
+}
+.showpart {
+  display: table;
+  color: white;
+  text-align: center;
+  width: 60%;
+  height: 60%;
+  padding: 0 50px 0 50px;
+  border: 0.5px;
+  border-color: white;
+  border-style: solid;
+  background-color: black;
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 15%; left: 0;
+  margin: auto;
+}
+iframe {
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 15%; left: 0;
+    margin: auto;
+}
+video {
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 15%; left: 0;
+    margin: auto;
+}
+a {
+  text-decoration: none;
+}
+#navi-tao, #navi-2018, #navi-tech, #navi-cross, #navi-comm, #navi-friend ,#show-concept{
+  /* visibility: hidden; */
+}
+@media (max-width: 802px) {
+  .navi-1lvl a{
+    margin-right: 100%;
+  }
+  .navi-1lvl{
+    top: 15px;
+    left: 30px;
+    position: fixed;
+    bottom: auto;
+  }
+  .navi-works{
+    visibility: hidden;
+  }
+  .navi-lvl2 {
+    margin-left: 50%;
+  }
+  .navi-lvl-2-1 {
+    position: fixed;
+    bottom: auto;
+    top: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .navi-lvl2 {
+    margin-right: 100%;
+    margin-left: auto;
+  }
+  .navi-lvl-2-1 {
+    position: fixed;
+    bottom: 15px;
+    left: 30px;
+    top: auto;
+  }
+}
