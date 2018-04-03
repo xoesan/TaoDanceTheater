@@ -204,7 +204,6 @@ a:hover{
   transition: 0.3s;
 }
 .showpart {
-  display: table;
   color: white;
   text-align: center;
   width: 60%;
