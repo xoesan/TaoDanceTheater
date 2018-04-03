@@ -220,6 +220,16 @@ a:hover{
   vertical-align: middle;
   margin: auto;
 }
+.lang-changer{
+  font-family: 'Source Code Pro', monospace, "Microsoft YaHei","微软雅黑",Arial,"黑体",sans-serif;
+  color: grey;
+  z-index: 100;
+  position: absolute;
+  bottom: 95px;right: 10px;
+}
+.lang-changer a{
+  font-size: 12px;
+}
 iframe {
     position: absolute;
     top: 0; right: 0;
@@ -241,7 +251,7 @@ a {
 #navi-toworks{
   display: none;
 }
-@media (max-width: 802px) {
+@media (max-width: 845px) {
   .navi-1lvl a{
     margin-right: 100%;
     word-break:keep-all;
@@ -287,7 +297,9 @@ a {
   .col{
     min-width: 80px;
   }
-
+  .lang-changer{
+    bottom: 10px;right: 10px;
+  }
   video{
     bottom: 0;
   }
