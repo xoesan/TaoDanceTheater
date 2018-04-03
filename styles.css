@@ -215,8 +215,9 @@ a:hover{
   border-style: solid;
   background-color: black;
   position: absolute;
-  top: 15%; right: 0;
+  top: 0; right: 0;
   bottom: 15%; left: 0;
+   vertical-align: middle;
   margin: auto;
 }
 iframe {
@@ -266,6 +267,7 @@ a {
     white-space:nowrap;
     z-index: 100;
     left: 55%;
+    bottom: auto;
   }
   #navi-toworks{
     display: block;
